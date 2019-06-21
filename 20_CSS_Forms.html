@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.7.2.css">
+    <link rel="stylesheet" href="bootstrap/css/animate.css">
+    <title>CSS forms</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: white url("../img/nature-3.jpg") no-repeat fixed bottom;
+        }
+        .form-div{
+            width: 250px;
+            text-align: center;
+            margin: 150px auto;
+            background-color: rgba(0,0,0,0.5);
+            box-shadow: 0 0 10px #947e65;
+            border-radius: 10px;
+        }
+        .form-div .fa{
+            margin-top: -50px;
+            font-size: 100px;
+            background-color: #947e65;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .form-div h2{
+            color: white;
+            margin-top: 10px;
+        }
+        input[type='text'],
+        input[type='password']{
+            text-align: center;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            height: 35px;
+            background: transparent;
+            color: white;
+            border-bottom: 3px solid #947e65;
+            width: 200px;
+        }
+        input[type='text']:focus,
+        input[type='password']:focus{
+            border-bottom: 3px solid #dac7ac;
+        }
+        input[type='submit']{
+            background-color: #947e65;
+            font-size: 20px;
+            margin: 15px;
+            border: none;
+            padding: 10px 35px;
+            border-radius: 50px;
+        }
+        input[type='submit']:hover{
+            background-color: #dac7ac;
+            box-shadow: 0 0 5px black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Login Form -->
+    <div class="form-div animated flip">
+        <i class="fa fa-user-circle"></i>
+        <h2>Login Here</h2>
+        <form>
+            <input type="text" placeholder="User Name">
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
+</body>
+</html>

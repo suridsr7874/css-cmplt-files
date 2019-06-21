@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            margin-bottom: 200px;
+        }
+        #bgColor{
+            background-color: teal;
+        }
+        #bgImage{
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            padding: 10px;
+            background-image: url("img/image4.jpeg");
+            color: white;
+        }
+        #bgPosition{
+            box-shadow: 0 0 10px black;
+            height: 300px;
+            width: 500px;
+            background:lightsalmon url("img/nature.jpg") no-repeat scroll top right;
+        }
+        #bgRepeat{
+            box-shadow: 0 0 10px black;
+            height: 300px;
+            width: 500px;
+            background:lightsalmon url("img/nature.jpg") repeat-x scroll top right;
+        }
+        #bgAttachment{
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            background: white url("img/image5.jpeg") no-repeat fixed bottom;
+        }
+        #gradient-1{
+            box-shadow: 0 0 10px black;
+            width: 500px;
+            padding: 15px;
+            background: linear-gradient(black,white,black);
+        }
+        #gradient-2{
+            box-shadow: 0 0 10px black;
+            width: 500px;
+            padding: 15px;
+            background: linear-gradient(to right , black,white,black);
+        }
+        #gradient-3{
+            box-shadow: 0 0 10px black;
+            width: 500px;
+            padding: 15px;
+            background: linear-gradient(to right top , blueviolet,white,darkblue);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BACKGROUND COLOR -->
+    <h2 id="bgColor">I am Teal color Background</h2>
+
+    <!-- BACKGROUND IMAGE -->
+    <h2>BACKGROUND IMAGE</h2>
+    <div id="bgImage">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi architecto atque blanditiis, cupiditate delectus distinctio est et eum exercitationem ipsam labore laboriosam magni minus modi molestiae mollitia necessitatibus neque nihil optio perferendis quam quos sapiente sunt suscipit ullam vero?</p>
+    </div>
+
+    <!-- BACKGROUND ATTACHMENT -->
+    <h2>BACKGROUND ATTACHMENT</h2>
+    <div id="bgAttachment"></div>
+
+    <!-- BACKGROUND POSITION -->
+    <h2>BACKGROUND POSITION</h2>
+    <div id="bgPosition"></div>
+
+    <!-- BACKGROUND REPEAT -->
+    <h2>BACKGROUND REPEAT</h2>
+    <div id="bgRepeat"></div>
+
+    <!-- LINEAR GRADIENT -->
+    <h2>LINEAR GRADIENT 1</h2>
+    <div id="gradient-1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur dicta distinctio dolore laborum magni, maxime necessitatibus non obcaecati, quod ut veniam. Animi expedita ipsum iste quia sit, veritatis vitae. Dolore error eveniet, excepturi expedita explicabo, id illum molestiae natus necessitatibus nesciunt possimus quisquam repellendus similique tenetur, velit? Esse, fugiat.</p>
+    </div>
+
+    <!-- LINEAR GRADIENT -->
+    <h2>LINEAR GRADIENT 2</h2>
+    <div id="gradient-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur dicta distinctio dolore laborum magni, maxime necessitatibus non obcaecati, quod ut veniam. Animi expedita ipsum iste quia sit, veritatis vitae. Dolore error eveniet, excepturi expedita explicabo, id illum molestiae natus necessitatibus nesciunt possimus quisquam repellendus similique tenetur, velit? Esse, fugiat.</p>
+    </div>
+
+    <!-- LINEAR GRADIENT -->
+    <h2>LINEAR GRADIENT 3</h2>
+    <div id="gradient-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur dicta distinctio dolore laborum magni, maxime necessitatibus non obcaecati, quod ut veniam. Animi expedita ipsum iste quia sit, veritatis vitae. Dolore error eveniet, excepturi expedita explicabo, id illum molestiae natus necessitatibus nesciunt possimus quisquam repellendus similique tenetur, velit? Esse, fugiat.</p>
+    </div>
+
+</body>
+</html>

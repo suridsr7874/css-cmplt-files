@@ -1,0 +1,75 @@
+body{
+    font-family: Arial,sans-serif;
+}
+section{
+    background-color: lightgray;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+    margin: 15px;
+}
+article{
+    width: 200px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+}
+
+/* ---------- Transformation 1 ------- */
+.trans-1:hover{
+    background-color: #00c851;
+    transform: translateY(-10px);
+}
+
+/* ---------- Transformation 2 ------- */
+.trans-2:hover{
+    background-color: #00c851;
+    transform: scale(1.2,1.2);
+}
+
+/* ---------- Transformation 3 ------- */
+.trans-3:hover{
+    background-color: #00c851;
+    transform: scale(0.8,0.8);
+}
+
+/* ---------- Transformation 4 ------- */
+.trans-4:hover{
+    background-color: #00c851;
+    transform: rotate(-20deg) scale(1.2,1.2);
+}
+
+/* ---------- Transformation 5 ------- */
+.trans-5:hover{
+    background-color: #00c851;
+    transform: perspective(400px) rotateX(-20deg);
+}
+
+/* ---------- Transformation 6 ------- */
+.trans-6:hover{
+    background-color: #00c851;
+    transform: perspective(400px) rotateY(20deg);
+}
+
+/* ---------- Transformation 7 ------- */
+.trans-7:hover{
+    background-color: #00c851;
+    transform: rotate3d(1, 1, 1, 45deg);
+}
+
+/* ---------- Transformation 8 ------- */
+.trans-8:hover{
+    background-color: #00c851;
+    transform: rotate3d(2, -1, -1, -0.2turn);
+}
+
+/* ---------- Transformation 9 ------- */
+.trans-9:hover{
+    background-color: #00c851;
+    transform: rotate3d(0, 1, 0.5, 3.142rad);
+}

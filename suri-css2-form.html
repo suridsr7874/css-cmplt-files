@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <style>
+            body{
+                font-style: italic;
+                background-image: url("../img/clr pen.jpg");
+            }
+
+     div{
+                border:2px solid #dfcb38;
+                box-shadow:red;
+                margin: 150px auto;
+                width: 250px;
+                padding: 0 0 30px;
+                border-radius:10px;
+                text-align: center;
+       transition: all 0.5s;
+            }
+            h2{
+                color:red;
+                font-style: italic;
+            }
+           input[type='text'],
+           input[type='password']{
+               font-size: 18px;
+               border: none;
+               outline: none;
+               background: transparent;
+               border-bottom: 2px solid blue;
+               width: 200px;
+               text-align: center;
+               color:yellow;
+
+           }
+            input[type='text']:focus
+            input[type='password']:focus{
+                background-color: red;
+            }
+
+            input[type='submit']{
+                font-size: 20px;
+                background-image: url("../img/nature-3.jpg");
+                color: white;
+                padding: 10px 30px;
+                margin: 10px;
+                width: 100px;
+                border-radius: 10px;
+                border: none;
+
+            }
+            input[type='submit']:hover{
+                font-size: 20px;
+                background-image: url("../img/fr3.jpg");
+                border: none;
+                margin: 12px;
+
+            }
+            #spin{
+border:5px orangered;
+                border-radius: 50%;
+                box-shadow: #00c851;
+                animation: spin 2s infinite linear;
+                margin: 0;
+                border-top: 20px sandybrown;
+
+
+            }
+            @keyframes spin {
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+            }
+            h3{
+                color: red;
+                font-size: 33px;
+            }
+            div:hover{
+                transform:scale3d(2,2,1);
+            }
+        </style>
+    </head>
+        <body>
+        <div id="spin">
+            <h3> suri</h3>
+        </div>
+        <div>
+            <h2> login here</h2>
+            <form>
+                <input type="text" placeholder="username">
+                <br>
+                <input type="password" placeholder="password"><br>
+                <input type="submit" value="login">
+            </form>
+        </div>
+
+        </body>
+</html>

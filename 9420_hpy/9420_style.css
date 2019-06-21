@@ -1,0 +1,224 @@
+body{
+    background-image: url("../../img/bstfrnd.jpg");
+}
+#dsr {
+ background-image: url("../../img/wood pouch.jpg");
+    padding: 10px 13px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 10px orange;
+    border: 10px purple;
+    overflow: hidden;
+}
+#dsr p{
+    color:  lightgoldenrodyellow;
+    text-shadow: 0 0 10px whitesmoke;
+    font-size: 30px;
+    margin: 0px;
+    animation: dsr 10s infinite linear;
+}
+@keyframes dsr {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#msr{
+    width: 50px;
+margin: 0px;
+   background-image: url("../../img/wood.jpg");
+    padding: 10px 13px;
+    margin-top: auto;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 30px;
+
+    box-shadow: 0 0 10px orange;
+    border: 10px purple;
+    overflow: hidden;
+}
+#msr p{
+    color: #0b0200 ;
+    margin: 1px;
+
+    animation: msr 10s infinite linear;
+}
+@keyframes msr {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#ksr{
+    width: 50px;
+
+    background-image: url("../../img/wood.jpg");
+    padding: 10px 13px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 1200px;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+    margin-top: auto;
+
+    box-shadow: 0 0 10px orange;
+    border: 10px purple;
+    overflow: hidden;
+}
+#ksr p{
+    color: #0b0200;
+    margin: 1px;
+
+    animation: msr 10s infinite linear;
+}
+@keyframes ksr {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+#tsr {
+    background:linear-gradient(to right, orangered,forestgreen,blue);
+    padding: 10px 13px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px orange;
+    border: 10px purple;
+    overflow: hidden;
+}
+#tsr p{
+    color:whitesmoke;
+    margin: 0px;
+    animation: dsr 10s infinite linear;
+}
+@keyframes tsr {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+div{
+
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+}
+span{
+    color: aqua;
+    font-size: 30px;
+    text-shadow: 0 0 10px green;
+    border-radius: 5px;
+    display: inline-block;
+
+    padding: 10px 15px;
+    box-shadow: 0 0 10px orangered;
+    animation: move 2s infinite linear;
+
+}
+@keyframes move {
+  0%{
+      transform: translateY(0px);
+  }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+span:nth-child(1){
+    animation-delay: 0.1s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(2){
+    animation-delay: 0.2s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(3){
+    animation-delay: 0.3s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(4){
+    animation-delay: 0.4s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(5){
+    animation-delay: 0.5s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(6){
+    animation-delay: 0.6s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(7){
+    animation-delay: 0.7s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(8){
+    animation-delay: 0.8s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(9){
+    animation-delay: 0.9s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(10){
+    animation-delay: 0.10s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(11){
+    animation-delay: 0.11s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(12){
+    animation-delay: 0.12s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(13){
+    animation-delay: 0.13s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(14){
+    animation-delay: 0.7s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(15){
+    animation-delay: 0.6s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(16){
+    animation-delay: 0.5s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(17){
+    animation-delay: 0.4s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(18){
+    animation-delay: 0.3s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(19){
+    animation-delay: 0.2s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
+span:nth-child(20){
+    animation-delay: 0.1s;
+    background: linear-gradient(to right,orangered,blue,forestgreen);
+}
